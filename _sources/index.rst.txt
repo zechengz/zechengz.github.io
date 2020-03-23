@@ -1,0 +1,29 @@
+:github_url: https://github.com/snap-stanford/deepsnap-experimental
+
+DeepSNAP Documentation
+====================================
+
+DeepSNAP is a Python package that makes the implementation of deep learning on graphs with transformations easy.
+
+It connects several Python packages such as `NetworkX <https://networkx.github.io/>`_, `PyTorch Geometric <https://pytorch-geometric.readthedocs.io/en/latest/>`_, and `PyTorch <https://pytorch.org/>`_.
+
+.. toctree::
+   :glob:
+   :maxdepth: 2
+   :caption: Notes
+
+   notes/installation
+   notes/introduction
+
+.. toctree::
+   :glob:
+   :maxdepth: 2
+   :caption: Package Reference
+
+   deepsnap
+
+Indices and Tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`

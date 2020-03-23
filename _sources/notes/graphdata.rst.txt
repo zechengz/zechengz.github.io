@@ -1,0 +1,19 @@
+GraphDataset Object
+==============
+This is a python object that models a dataset as a list of DeepSNAP Graphs.
+
+Arguments
+-----------------
+- graphs: a list of Graph
+- task: task this GraphDataset is used for 
+- edge_negative_sampling_ratio: number of negative samples compared to that of positive data
+- edge_message_ratio: number of training edge objectives compared to that of message-passing edges
+- edge_train_mode: which mode to train edges with
+
+Methods
+-----------------
+- __len__: returns the number of graphs in this data object
+- num_node_features: returns the numbers of features per node
+- num_edge_features: returns the numbers of features per edge
+- num_node_labels: returns the numbers of labels per node
+- num_edge_labels: returns the numbers of labels per edge

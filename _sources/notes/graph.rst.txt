@@ -1,0 +1,21 @@
+Graph Object
+==============
+This is a python object that models a single graph with various optional attributes.
+
+Arguments
+-----------------
+- G: A networkX graph, containing features & labels for the task
+- **kwargs: keyworded argument list of keys like 'node_label'
+
+Methods
+-----------------
+- _from_dict: returns a graph object using a python dictionary (alternative to using kwargs)
+- __getitem__: Gets the data of the attribute :obj:`key`
+- __setitem__: Sets the attribute :obj:`key` to :obj:`value`
+
+Methods (2)
+-----------------
+- keys: returns all the names of a given graph's attributes
+- __len__: returns the number of attributes
+- __contains__: checks if a given attribute is in the data
+- __iter__: iterates over all present attributes in the data
